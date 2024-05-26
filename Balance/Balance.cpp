@@ -138,6 +138,7 @@ private:
 };
 
 int main() {
+    cout << "The file must contain sequentially arranged nodes of the binary tree! (like: 54 21 33 11 ...)\n\n";
     ifstream file("input.txt");
     if (!file) {
         cerr << "Error while opening file." << endl;
