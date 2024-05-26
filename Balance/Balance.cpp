@@ -27,11 +27,11 @@ private:
 
     // Create new node method
     Node* create_node(int data) {
-        Node* newNode = new Node();
-        newNode->data = data;
-        newNode->height = 1;
-        newNode->left = newNode->right = nullptr;
-        return newNode;
+        Node* new_node = new Node();
+        new_node->data = data;
+        new_node->height = 1;
+        new_node->left = new_node->right = nullptr;
+        return new_node;
     }
 
     // insert node into the tree
